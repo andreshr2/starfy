@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moshify</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!------ "GOOGLE WEB FONTS" ---- -->
+    <!--Inter 400-regular/ 700-bold-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--animations-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/870c9c3904.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"
+          ><img src="./Moshify/icons/logo.svg" alt=""
+        /></a>
+        <svg class="icon icon--white nav__toggler icon--small">
+          <use xlink:href="image/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Hosting</a></li>
+          <li class="nav__item"><a href="#">VPS</a></li>
+          <li class="nav__item"><a href="#">Domain</a></li>
+          <li class="nav__item"><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading" data-aos="zoom-in-right">Cloud Hosting for Pros</h1>
+          <p class="hero__tagline">
+            Deploy your websites in less than 60 seconds
+          </p>
+          <a href="" class="btn btn--accent btn--stretched">Get started</a>
+        </header>
+
+        <img class="hero__image"data-aos="fade-left"   src="./Moshify/images/banner.png" />
+      </div>
+    </section>
+
+    
+
+    <section class="block container block-domain" data-aos="zoom-in-up">
+      <header class="block__header">
+        <h2>starting at $9 per month</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas,
+          assumenda?
+        </p>
+      </header>
+      <div class="input-group">
+        <input
+          type="text"
+          class="input"
+          placeholder="Enter domain name here..."
+        />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use xlink:href="image/sprite.svg#search"></use>
+          </svg>
+          Search
+        </button>
+      </div>
+      <ul class="list block-domain__prices">
+        <li><span class="badge badge--secondary">.com $9</span></li>
+        <li>.sg $10</li>
+        <li>.space $11</li>
+        <li>.info $14</li>
+        <li>.net $10</li>
+        <li>.xyz $10</li>
+      </ul>
+    </section>
+
+
+    <section class=" container block block-plans" data-aos="fade-up">
+      <div class="grid grid--1x3">
+  
+        <div class="cards">
+          <div class="div__card plan">
+            <div class="card card--secondary">
+              <header class="card__heading">
+                <h3 class="plan__name">Entry</h3>
+                 <span class="plan__price">$14</span>
+                 <span class="plan__billing-cycle">/month</span>
+                 <span class="badge badge--secondary badge--small">10% OFF</span>
+                 <span class="plan__description">Start easy on the cloud</span>
+              </header>
+              <div class="card__body">
+                <ul class="list list--tick">
+                  <li class="list__item">Unlimited Websites</li>
+                  <li class="list__item">Unlimited bandwidth</li>
+                  <li class="list__item">100 GB sdd Storage</li>
+                  <li class="list__item">3GB RAM</li>
+                </ul>
+                <button class="btn btn--outline btn--block">Buy now</button>
+              </div>
+            </div>
+          </div>
+          </div>
+  
+          <div class="cards">
+            <div class="div__card  plan--popular">
+              <div class="card card--primary">
+                <header class="card__heading">
+                  <h3 class="plan__name">Entry</h3>
+                  <span class="plan__price">$14</span>
+                  <span class="plan__billing-cycle">/month</span>
+                  <span class="badge badge--primary badge--small"
+                    >10% OFF</span
+                  >
+                  <span class="plan__description">Start easy on the cloud</span>
+                </header>
+                <div class="card__body">
+                  <ul class="list list--tick">
+                    <li class="list__item">Unlimited Websites</li>
+                    <li class="list__item">Unlimited bandwidth</li>
+                    <li class="list__item">100 GB sdd Storage</li>
+                    <li class="list__item">3GB RAM</li>
+                  </ul>
+                  <button class="btn btn--outline btn--block">Buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="cards">
+            <div class="div__card plan">
+              <div class="card card--secondary">
+                <header class="card__heading">
+                  <h3 class="plan__name">Entry</h3>
+                  <span class="plan__price">$14</span>
+                  <span class="plan__billing-cycle">/month</span>
+                  <span class="badge badge--secondary badge--small"
+                    >10% OFF</span
+                  >
+                  <span class="plan__description">Start easy on the cloud</span>
+                </header>
+                <div class="card__body">
+                  <ul class="list list--tick">
+                    <li class="list__item">Unlimited Websites</li>
+                    <li class="list__item">Unlimited bandwidth</li>
+                    <li class="list__item">100 GB sdd Storage</li>
+                    <li class="list__item">3GB RAM</li>
+                  </ul>
+                  <button class="btn btn--outline btn--block">Buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block container">
+      <header class="block__header">
+        <h2>Host On the Cloud to Keep Growing</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
+       
+        </p>
+      </header>
+    
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="image/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super Easy to Use</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique at
+            reiciendis accusantium 
+          </p>
+          <a href="#" class="link-arrow">Learn more</a>
+        </div>
+        <img class="feature__image" data-aos="fade-left" src="./Moshify/images/easy.webp" alt="" />
+      </article>
+    
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="zoom-in">
+          <span class="icon-container">
+            <svg class="icon icon--primary ">
+              <use xlink:href="image/sprite.svg#computer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading" data-aos="fade-up">Simply Fast Websites</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique at
+            reiciendis accusantium expedita dolorum 
+          <a href="#" class="link-arrow">Learn more</a>
+        </div>
+        <img class="feature__image" src="./Moshify/images/fast.webp" alt="" />
+      </article>
+
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary ">
+              <use xlink:href="image/sprite.svg#wordpress"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Wordpress Made Easy</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique at
+            reiciendis accusantium expedita dolorum 
+          <a href="#" class="link-arrow">Learn more</a>
+        </div>
+        <img  class="feature__image" data-aos="fade-up" src="./Moshify/images/wordpress.webp" alt="" />
+      </article>
+
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-left">
+          <span class="icon-container">
+            <svg class="icon icon--primary ">
+              <use xlink:href="image/sprite.svg#clock"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">24/7 Expert Support</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique at
+            reiciendis accusantium expedita dolorum 
+          <a href="#" class="link-arrow">Learn more</a>
+        </div>
+        <img class="feature__image" data-aos="fade-down" src="./Moshify/images/support.webp" alt="" />
+      </article>
+    </section>
+
+
+    <section class="block block--dark block--skewed-righ t block-showcase">
+      <header class="block__header" data-aos="fade-up">
+        <h2>User-friendly Control Panel</h2>
+      </header>
+    
+      <div class="container grid grid--1x2">
+        <picture class="block-showcase__image" data-aos="zoom-in">
+          <source
+            type="image/webp"
+            srcset="
+              ./Moshify/images/ipad@1x.webp 1x,
+              ./Moshify/images/ipad@2x.webp 2x
+            "
+          />
+          <source
+            type="image/png"
+            srcset="
+              ./Moshify/images/ipad@1x.png 1x,
+              ./Moshify/images/ipad@2x.png 2x
+            "
+          />
+          <img
+            class="block-showcase-panel__image"
+            src="./Moshify/images/ipad@1x.png"
+            alt=""
+          />
+        </picture>
+    
+        <div class="list">
+          <div>
+            <div class="media" data-aos="fade-left">
+              <div class="media__body">
+                <h3 class="media__title">Easy Start & Managed Updates</h3>
+                <p class="media--opacity">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                  aperiam et pariatur beatae voluptatem nam quidem quasi labore quod
+                  qui.
+                </p>
+              </div>
+            </div>
+    
+            <li>
+              <div class="media" data-aos="fade-left">
+                <div class="media__body">
+                  <h3 class="media__title media__white">Staggin, GIT & WP-CLI</h3>
+                  <p class="media__white media--opacity">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                    aperiam et pariatur beatae voluptatem nam quidem quasi labore
+                    quod qui.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="media" data-aos="fade-left">
+                  <div class="media__body">
+                    <h3 class="media__title media__white">
+                      Dynamic Caching & More
+                    </h3>
+                    <p class="media__white media--opacity">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Sequi, aperiam et pariatur beatae voluptatem nam quidem quasi
+                      labore quod qui.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="block">
+      <header class="block__header">
+        <h2  data-aos="fade-up" data-aos-duration="400">What our Costumers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+          laboriosam.
+        </p>
+      </header>
+      <div class="container"  data-aos="zoom-in">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="./Moshify/images/testimonial.jpg"
+                alt="A happy, smiling costumer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white">
+                  <use xlink:href="image/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+    
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed culpa
+                illo cumque quae aspernatur debitis, perspiciatis odit quam neque
+                rerum!
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--secondary quote__icon">
+                      <use xlink:href="image/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">Andrea Hurtado</h3>
+                    <p class="quote__organization">Starfy Community CEO</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="callout__section">
+      <div class="container callout callout--primary">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Ready to get started?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio mollitia
+              facilis corrupti nostrum sequi nisi tempora quam magnam a repudiandae.
+            </p>
+          </div>
+          <a href="" class="btn btn--secondary btn--stretched">Get started</a>
+        </div>
+      </div>
+    </section>
+      
+      
+      
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">products</h2>
+            <i
+              class="fa-solid fa-chevron-down icon icon--small collapsible__chevron"
+            ></i>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">Website Hosting</a></li>
+              <li><a href="">Free Automated Wordpress</a></li>
+              <li><a href="">Migrations</a></li>
+            </ul>
+          </div>
+        </section>
+    
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <i
+              class="fa-solid fa-chevron-down icon icon--small collapsible__chevron"
+            ></i>
+          </header>
+    
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">About</a></li>
+              <li><a href="">Affiliates</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
+        </section>
+    
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <i
+              class="fa-solid fa-chevron-down icon icon--small collapsible__chevron"
+            ></i>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">Contact</a></li>
+              <li><a href="">Knowledge</a></li>
+              <li><a href="">Base</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+    
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Domains</h2>
+            <i
+              class="fa-solid fa-chevron-down icon icon--small collapsible__chevron"
+            ></i>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">Domain</a></li>
+              <li><a href="">Checker</a></li>
+              <li><a href="">Transfer</a></li>
+              <li><a href="">Freen Domain</a></li>
+            </ul>
+          </div>
+        </section>
+    
+        <section class="footer__brand">
+          <img src="./Moshify/images/logo.svg" />
+          <p class="footer__copyright">Copyright 2022 Andrea Hurtado</p>
+        </section>
+      </div>
+    </footer>
+    
+
+
+
+    <script id="collapsiblejs" src="./Moshify/code/Moshify/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
