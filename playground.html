@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="./Moshify/code/Moshify/css/moshifystyles.css"
+    />
+
+    <!--  ---- "GOOGLE WEB FONTS" ---- -->
+    <!--Inter 400-regular/ 700-bold-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/870c9c3904.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      /*testimonial*/
+      .testimonial {
+        padding: 3rem;
+      }
+      .testimonial .quote {
+        margin: 2rem 0;
+        font-size: 110%;
+      }
+
+      .testimonial__image {
+        position: relative;
+        margin: 0 3rem;
+        width: 100%;
+      }
+
+      .testimonial__image > .icon-container {
+        position: absolute;
+        top: 3rem;
+        right: -32px;
+      }
+
+      @media screen and (min-width: 768px) {
+        .testimonial__image {
+          margin: 0;
+        }
+        .testimonial .quote {
+          margin: 5rem 0 0 6rem;
+          font-size: 120%;
+          line-height: 1.5;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>User-friendly Control Panell</h2>
+      </header>
+
+      <div class="container grid grid--1x2">
+        <picture class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="
+              ./Moshify/images/ipad@1x.webp 1x,
+              ./Moshify/images/ipad@2x.webp 2x
+            "
+          />
+          <source
+            type="image/png"
+            srcset="
+              ./Moshify/images/ipad@1x.png 1x,
+              ./Moshify/images/ipad@2x.png 2x
+            "
+          />
+          <img
+            class="block-showcase-panel__image"
+            src="./Moshify/images/ipad@1x.png"
+            alt=""
+          />
+        </picture>
+
+        <div class="list">
+          <div>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--secondary icon--small">
+                  <use xlink:href="image/sprite.svg#easy"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title media__white">
+                  Easy Start & Managed Updates
+                </h3>
+                <p class="media__white media--opacity">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sequi, aperiam et pariatur beatae voluptatem nam quidem quasi
+                  labore quod qui.
+                </p>
+              </div>
+            </div>
+
+            <li>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--secondary icon--small">
+                    <use xlink:href="image/sprite.svg#growth"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title media__white">
+                    Staggin, GIT & WP-CLI
+                  </h3>
+                  <p class="media__white media--opacity">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sequi, aperiam et pariatur beatae voluptatem nam quidem
+                    quasi labore quod qui.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--secondary icon--small">
+                      <use xlink:href="image/sprite.svg#wordpress"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title media__white">
+                      Dynamic Caching & More
+                    </h3>
+                    <p class="media__white media--opacity">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Sequi, aperiam et pariatur beatae voluptatem nam quidem
+                      quasi labore quod qui.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>User-friendly Control Panel</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <picture data-aos="fade-right" class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
+          />
+          <img src="images/ipad.png" alt="" />
+        </picture>
+        <ul class="list" data-aos="fade-up">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#snap"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Easy Start & Managed Updates</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Staging, GIT & WP-CLI</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Dynamic Caching & More</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
